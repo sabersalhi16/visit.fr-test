@@ -120,7 +120,7 @@ function App() {
           {loaded ? (
             <>
               <Doughnut labels={labels} data={data} />
-              <h1>Performance Score{score}</h1>
+              <h1>Performance Score {score}</h1>
             </>
           ) : (
             loading && (
