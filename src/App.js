@@ -45,6 +45,9 @@ function App() {
           .map((row) => +row)
           .reduce((a, b) => a + b) / 5
       );
+      setTimeout(() => {
+        execute();
+      }, 60000);
     }
   }, [loaded]);
   function execute() {
