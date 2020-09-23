@@ -39,7 +39,7 @@ function App() {
   }, []);
   useEffect(() => {
     if (loaded) {
-      setScore(data.slice(0, 5).map((row) => +row.toFixed(0)));
+      setScore(data.slice(0, 5).map((row) => +row));
     }
   }, [loaded]);
   function execute() {
