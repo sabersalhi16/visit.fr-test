@@ -39,7 +39,12 @@ function App() {
   }, []);
   useEffect(() => {
     if (loaded) {
-      setScore(data.slice(0, 5).map((row) => +row));
+      setScore(
+        data
+          .slice(0, 5)
+          .map((row) => +row)
+          .reduce((a, b) => a + b) / 5
+      );
     }
   }, [loaded]);
   function execute() {
@@ -115,7 +120,7 @@ function App() {
           {loaded ? (
             <>
               <Doughnut labels={labels} data={data} />
-              <h1>Performance Score{}</h1>
+              <h1>Performance Score{score}</h1>
             </>
           ) : (
             loading && (
