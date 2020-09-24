@@ -28,8 +28,10 @@ code {
   width: 100%;
 }
 .chart-container {
-  width: 500px;
+  width: 900px;
   margin: 40px auto;
+  /* display: flex;
+  justify-content: center; */
 }
 
 .loader {
