@@ -594,13 +594,6 @@
     fs-extra "9.0.1"
     pluralize "8.0.0"
 
-"@nestjs/serve-static@^2.1.3":
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/@nestjs/serve-static/-/serve-static-2.1.3.tgz#bdcb6d3463d193153b334212facc24a9767046e9"
-  integrity sha512-9xyysggaOdfbABWqhty+hAkauDWv/Q8YKHm4OMXdQbQei5tquFuTjiSx8IFDOZeSOKlA9fjBq/2MXCJRSo23SQ==
-  dependencies:
-    path-to-regexp "0.1.7"
-
 "@nestjs/testing@^7.0.0":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@nestjs/testing/-/testing-7.4.4.tgz#7a64b22e043b0f9db993c1c22467d20d3331f380"
@@ -2411,6 +2404,11 @@ domexception@^2.0.1:
   integrity sha512-yxJ2mFy/sibVQlu5qHjOkf9J3K6zgmCxgJ94u2EdvDOV09H+32LtRswEcUsmUWN72pVLOEnTSRaIVVzVQgS0dg==
   dependencies:
     webidl-conversions "^5.0.0"
+
+dotenv@^8.2.0:
+  version "8.2.0"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-8.2.0.tgz#97e619259ada750eea3e4ea3e26bceea5424b16a"
+  integrity sha512-8sJ78ElpbDJBHNeBzUbUVLsqKdccaa/BXF1uPTw3GrvQTBgrQrtObr2mUrE38vzYd8cEv+m/JBfDLioYcfXoaw==
 
 duplexify@^3.4.2, duplexify@^3.6.0:
   version "3.7.1"
